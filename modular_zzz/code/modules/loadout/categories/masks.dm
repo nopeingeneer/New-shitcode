@@ -1,7 +1,7 @@
 /datum/loadout_item/mask/oni_mask
 	name = "Tactical Gasmask"
 	item_path = /obj/item/clothing/mask/gas/syndicate/cool_version
-	ckeywhitelist = list("oni3288", "smileycom")
+	ckeywhitelist = list("oni3288", "smileycom", "sutulayapsina")
 
 /datum/loadout_item/mask/blackcool_mask
 	name = "CFIS Gasmask"
