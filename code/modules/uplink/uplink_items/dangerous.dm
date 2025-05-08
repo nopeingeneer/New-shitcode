@@ -59,7 +59,7 @@
 	item = /obj/item/melee/baton/nunchaku
 	cost = 7
 	purchasable_from = ~UPLINK_SPY //spy get their own tg version
-	uplink_item_flags = SYNDIE_ILLEGAL_TECH | SYNDIE_TRIPS_CONTRABAND
+	uplink_item_flags = SYNDIE_TRIPS_CONTRABAND
 
 /datum/uplink_item/dangerous/rapid
 	name = "Gloves of the North Star"
