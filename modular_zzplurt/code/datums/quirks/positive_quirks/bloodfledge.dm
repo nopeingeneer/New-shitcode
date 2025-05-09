@@ -1399,7 +1399,7 @@
 
 	// Condition: Insufficient blood volume
 	else
-		if(action_owner.blood_volume > BLOOD_VOLUME_SURVIVE)
+		if(action_owner.blood_volume < BLOOD_VOLUME_SURVIVE) // WHITEMOON FIX: Был неверно поставлен знак (> вместо <), из-за чего выводило сообщение о недостатке крови при её наличии в большом количестве.
 			revive_failed += "\n- You don't have enough blood volume left!"
 
 	// Condition: Damage limit, brute
