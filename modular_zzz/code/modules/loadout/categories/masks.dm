@@ -17,3 +17,8 @@
 	name = "M1062-B"
 	item_path = /obj/item/clothing/mask/gas/syndicate/yekitezh_red
 	ckeywhitelist = list("enigma418", "dolbajob", "smileycom")
+
+/datum/loadout_item/mask/Judas_mask
+	name = "Andromeda Mask"
+	item_path = /obj/item/clothing/mask/gas/syndicate/cool_version/judas_version
+	ckeywhitelist = list("mihana964")
