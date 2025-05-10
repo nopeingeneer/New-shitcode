@@ -4,9 +4,9 @@
 	/// List of species that this quirk is valid for, or empty if it's valid for all species. Only use species ids here.
 	var/list/species_whitelist = list()
 
-/datum/quirk/add_to_holder(mob/living/carbon/new_holder, quirk_transfer, client/client_source)
+/datum/quirk/add_to_holder(mob/living/new_holder, quirk_transfer, client/client_source)
 	if(!can_add(new_holder))
-		CRASH("Attempted to add quirk to holder that can't have it, cause holder is [new_holder.dna.species].")
+		CRASH("Attempted to add quirk to holder that can't have it.")
 	. = ..()
 
 /// Returns true if the quirk is valid for the target, call parent so qurk_species_whitelist can be checked.
