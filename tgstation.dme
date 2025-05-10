@@ -10216,6 +10216,7 @@
 #include "modular_zzz\code\game\hos_color_changer.dm"
 #include "modular_zzz\code\game\machinery\dance_machine.dm"
 #include "modular_zzz\code\modules\clothing\masks\gasmask.dm"
+#include "modular_zzz\code\modules\clothing\suits\suits.dm"
 #include "modular_zzz\code\modules\loadout\categories\masks.dm"
 #include "modular_zzz\code\modules\loadout\categories\suits.dm"
 #include "modular_zzz\code\modules\mob\living\lavaland\legion.dm"
@@ -10234,7 +10235,6 @@
 #include "modular_zzz\code\modules\storytellers\event_defines\crewset\ratvar_cult.dm"
 #include "modular_zzz\code\modules\storytellers\event_defines\crewset\revolution.dm"
 #include "modular_zzz\code\modules\storytellers\event_defines\crewset\space_pirates.dm"
-#include "modular_zzz\fluffs\code\suits.dm"
 #include "modular_zzz\modules\customization\modules\mob\dead\new_player\sprite_accessories\taur_types.dm"
 #include "modular_zzz\modules\digitigrade_cybernetics\code\robot_bodyparts.dm"
 // END_INCLUDE
