@@ -10225,6 +10225,7 @@
 #include "modular_zzz\code\datums\ruins\space.dm"
 #include "modular_zzz\code\game\hos_color_changer.dm"
 #include "modular_zzz\code\game\machinery\dance_machine.dm"
+#include "modular_zzz\code\game\objects\effects\posters.dm"
 #include "modular_zzz\code\modules\clothing\masks\gasmask.dm"
 #include "modular_zzz\code\modules\clothing\suits\suits.dm"
 #include "modular_zzz\code\modules\loadout\categories\masks.dm"
