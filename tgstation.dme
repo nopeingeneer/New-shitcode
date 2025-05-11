@@ -10222,6 +10222,7 @@
 #include "modular_zzz\code\datums\quirks\negative_quirks\food_allergy.dm"
 #include "modular_zzz\code\datums\quirks\negative_quirks\gifted.dm"
 #include "modular_zzz\code\datums\quirks\neutral_quirks\hungry.dm"
+#include "modular_zzz\code\datums\ruins\space.dm"
 #include "modular_zzz\code\game\hos_color_changer.dm"
 #include "modular_zzz\code\game\machinery\dance_machine.dm"
 #include "modular_zzz\code\modules\clothing\masks\gasmask.dm"
