@@ -10243,4 +10243,5 @@
 #include "modular_zzz\code\modules\storytellers\event_defines\crewset\space_pirates.dm"
 #include "modular_zzz\modules\customization\modules\mob\dead\new_player\sprite_accessories\taur_types.dm"
 #include "modular_zzz\modules\digitigrade_cybernetics\code\robot_bodyparts.dm"
+#include "modular_zzz\code\modules\mob\living\emote.dm"
 // END_INCLUDE
