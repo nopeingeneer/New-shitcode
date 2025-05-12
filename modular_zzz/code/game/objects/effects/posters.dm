@@ -252,6 +252,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/vulp2, 32)
 	name = "Vulp Medical"
 	desc = "White vulpkanin on the background of a green cross, one of the interplanetary symbol of health and aid."
 	icon_state = "poster_vulp3"
+	icon = 'modular_zzz/icons/obj/poster.dmi'
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/vulp3, 32)
 
