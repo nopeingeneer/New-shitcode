@@ -68,7 +68,7 @@
 	name = "Zvezdochka"
 	desc = "Не похоже на мазь."
 	icon_state = "pill7"
-	list_reagents = list(/datum/reagent/drug/zvezdochka = 10)
+	list_reagents = list(/datum/reagent/drug/zvezdochka = 25)
 
 /obj/item/storage/pill_bottle/zvezdochka
 	name = "Mazz Zvezdochka"
@@ -173,7 +173,7 @@
 	name = "Pendosovka"
 	desc = "Не похоже на мазь."
 	icon_state = "pill7"
-	list_reagents = list(/datum/reagent/drug/pendosovka = 10)
+	list_reagents = list(/datum/reagent/drug/pendosovka = 25)
 
 /obj/item/storage/pill_bottle/pendosovka
 	name = "Mazz Pendosovka"
@@ -469,7 +469,7 @@
 	var/static/list/descs = list("Your feeling is telling you no, but...","Drugs are expensive, you can't afford not to eat any pills that you find."\
 	, "Surely, there's no way this could go bad.", "Winners don't do dr- oh what the heck!", "Free pills? At no cost, how could I lose?")
 	icon_state = "pill5"
-	list_reagents = list(/datum/reagent/drug/labebium = 10)
+	list_reagents = list(/datum/reagent/drug/labebium = 25)
 
 /obj/item/reagent_containers/applicator/pill/labebium/Initialize(mapload)
 	. = ..()
