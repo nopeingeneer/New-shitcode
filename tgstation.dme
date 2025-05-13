@@ -10256,8 +10256,6 @@
 #include "modular_zzz\code\modules\storytellers\event_defines\crewset\space_pirates.dm"
 #include "modular_zzz\code\modules\uplink\uplink_items\badass.dm"
 #include "modular_zzz\code\modules\uplink\uplink_items\dangerous.dm"
-#include "modular_zzz\fluffs\code\suits.dm"
-#include "modular_zzz\fluffs\code\neck.dm"
 #include "modular_zzz\modules\customization\modules\mob\dead\new_player\sprite_accessories\taur_types.dm"
 #include "modular_zzz\modules\digitigrade_cybernetics\code\robot_bodyparts.dm"
 // END_INCLUDE

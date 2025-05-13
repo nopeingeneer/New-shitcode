@@ -1,3 +1,5 @@
+#define DRUGS_SOURCE "drugs"
+
 /datum/reagent/drug/zvezdochka
 	name = "Zvezdochka"
 	description = "Реверс-инжениринг версия старого советского психотропного вещества. По крайней мере попытка."
@@ -12,7 +14,7 @@
 /datum/reagent/drug/zvezdochka/on_mob_metabolize(mob/living/M)
 	. = ..()
 
-	M.add_client_colour(/datum/client_colour/zvezdochka)
+	M.add_client_colour(/datum/client_colour/zvezdochka, DRUGS_SOURCE)
 	var/sound/sound = sound(pick('modular_zzz/sounds/LYENEN.ogg', 'modular_zzz/sounds/LYENEN2.ogg'), TRUE)
 	sound.environment = 35
 	sound.volume = 30
@@ -56,7 +58,7 @@
 	..()
 
 /datum/reagent/drug/zvezdochka/on_mob_end_metabolize(mob/living/M)
-	M.remove_client_colour(/datum/client_colour/zvezdochka)
+	M.remove_client_colour(DRUGS_SOURCE)
 	DIRECT_OUTPUT(M.client, sound(null))
 	..()
 
@@ -117,7 +119,7 @@
 /datum/reagent/drug/pendosovka/on_mob_metabolize(mob/living/M)
 	. = ..()
 
-	M.add_client_colour(/datum/client_colour/pendosovka)
+	M.add_client_colour(/datum/client_colour/pendosovka, DRUGS_SOURCE)
 	var/sound/sound = sound(pick('modular_zzz/sounds/CAPITAL1.ogg', 'modular_zzz/sounds/CAPITAL2.ogg'), TRUE)
 	sound.environment = 45
 	sound.volume = 40
@@ -161,7 +163,7 @@
 	..()
 
 /datum/reagent/drug/pendosovka/on_mob_end_metabolize(mob/living/M)
-	M.remove_client_colour(/datum/client_colour/pendosovka)
+	M.remove_client_colour(DRUGS_SOURCE)
 	DIRECT_OUTPUT(M.client, sound(null))
 	..()
 
@@ -484,3 +486,5 @@
 /obj/item/storage/pill_bottle/labebium/PopulateContents()
 	for(var/i in 1 to 7)
 		new /obj/item/reagent_containers/applicator/pill/labebium(src)
+
+#undef DRUGS_SOURCE
