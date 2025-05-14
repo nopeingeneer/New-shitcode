@@ -25,7 +25,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/vlm, 32)
 
 /obj/structure/sign/poster/official/nt_storm_officer
 	name = "NT Storm Ad"
-	desc = "An advertisement for NanoTrasen Storm. A premium infantry helmet, This is the officer variant. I comes with a better radio, better HUD software and better targeting sensors."
+	desc = "An advertisement for Nanotrasen Storm. A premium infantry helmet, This is the officer variant. I comes with a better radio, better HUD software and better targeting sensors."
 	icon_state = "poster_stormy"
 	icon = 'modular_zzz/icons/obj/poster.dmi'
 
@@ -33,7 +33,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/nt_storm_officer
 
 /obj/structure/sign/poster/official/nt_storm
 	name = "NT Storm Ad"
-	desc = "An advertisement for NanoTrasen Storm. A premium infantry helmet, It contains a rebreather and full head coverage for use on harsh environments where the air isn't always safe to breathe."
+	desc = "An advertisement for Nanotrasen Storm. A premium infantry helmet, It contains a rebreather and full head coverage for use on harsh environments where the air isn't always safe to breathe."
 	icon_state = "poster_stormier"
 	icon = 'modular_zzz/icons/obj/poster.dmi'
 
