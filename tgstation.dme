@@ -10305,7 +10305,6 @@
 #include "modular_zzz\code\modules\antagonists\heretic\knowledge\moon_lore.dm"
 #include "modular_zzz\code\modules\antagonists\heretic\knowledge\rust_lore.dm"
 #include "modular_zzz\code\modules\clothing\masks\gasmask.dm"
-#include "modular_zzz\code\modules\clothing\necks\neck.dm"
 #include "modular_zzz\code\modules\clothing\suits\suits.dm"
 #include "modular_zzz\code\modules\loadout\categories\heads.dm"
 #include "modular_zzz\code\modules\loadout\categories\inhands.dm"
