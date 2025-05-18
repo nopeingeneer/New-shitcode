@@ -3,7 +3,7 @@
 	item_path = /obj/item/clothing/neck/cloak/tendercloak
 	ckeywhitelist = list("mercreaper", "byratishka", "flippingtable")
 
-/datum/loadout_item/neck/pedantcape
+/datum/loadout_item/neck/pcorvuspendant
 	name = "Corvus Pendant"
-	item_path = /obj/item/clothing/neck/cloak/pendantcape
+	item_path = /obj/item/clothing/neck/corvuspendant
 	ckeywhitelist = list("smol42", "weirdbutton", "sage4or")
