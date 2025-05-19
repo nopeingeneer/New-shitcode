@@ -10303,6 +10303,7 @@
 #include "modular_zzz\code\modules\antagonists\heretic\knowledge\lock_lore.dm"
 #include "modular_zzz\code\modules\antagonists\heretic\knowledge\moon_lore.dm"
 #include "modular_zzz\code\modules\antagonists\heretic\knowledge\rust_lore.dm"
+#include "modular_zzz\code\modules\antagonists\nukeop\outfits.dm"
 #include "modular_zzz\code\modules\clothing\masks\gasmask.dm"
 #include "modular_zzz\code\modules\clothing\necks\neck.dm"
 #include "modular_zzz\code\modules\clothing\suits\suits.dm"
