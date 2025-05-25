@@ -577,6 +577,7 @@
 #include "code\__DEFINES\~~~splurt_defines\traits\declarations.dm"
 #include "code\__DEFINES\~~~splurt_defines\traits\defines.dm"
 #include "code\__DEFINES\~~~splurt_defines\traits\sources.dm"
+#include "code\__DEFINES\~~~~white_defines\click.dm"
 #include "code\__DEFINES\~~~~white_defines\subsystems.dm"
 #include "code\__DEFINES\~~~~white_defines\traits_declaration.dm"
 #include "code\__HELPERS\_auxtools_api.dm"
@@ -10364,7 +10365,6 @@
 #include "modular_zzz\modules\new_icons\slimes_sprites\code.dm"
 #include "modular_zzz\modules\new_icons\smes\code.dm"
 #include "modular_zzz\modules\noose\code.dm"
-#include "modular_zzz\modules\now-we-can-jump\click.dm"
-#include "modular_zzz\modules\now-we-can-jump\code.dm"
+#include "modular_zzz\modules\now_we_can_jump\code.dm"
 #include "modular_zzz\modules\void\void.dm"
 // END_INCLUDE
