@@ -570,6 +570,18 @@ GLOBAL_LIST_INIT(wire_node_generating_types, typecacheof(list(
 				if(use(CABLE_RESTRAINTS_COST))
 					var/obj/item/restraints/handcuffs/cable/restraints = new(null, cable_color)
 					user.put_in_hands(restraints)
+		if("Noose") // MOON STATION ADDITION START
+			if(amount < 30)
+				to_chat(user, "<span class='notice'>You don't have enough cable coil to make noose out of them</span>")
+				return
+			to_chat(user, "<span class='notice'>You start making some cable noose...</span>")
+			if(!(locate(/obj/structure/chair) in user.loc) && !(locate(/obj/structure/bed) in user.loc) && !(locate(/obj/structure/table) in user.loc) && !(locate(/obj/structure/toilet) in user.loc))
+				to_chat(user, span_warning("You need to be on top, table, chair!!"))
+				return
+			if(!do_after(user, 3 SECONDS, user) || !use(30))
+				to_chat(user, "<span class='notice'>You fail to make cable noose, you need to be standing still to do it</span>")
+				return
+			new /obj/structure/chair/noose(get_turf(user)) // MOON STATION ADDITION END
 	update_appearance()
 
 
