@@ -2,7 +2,7 @@
 	var/bottle_game_cd = 0 // кулдаун для верба
 
 // Применяет входящий трансформ через время и воспроизводит звук дропа
-/obj/item/reagent_containers/cup/glass/bottle/proc/bottle_game_stay(var/matrix/O)
+/obj/item/reagent_containers/cup/glass/bottle/proc/bottle_game_stay(matrix/O)
 	sleep(15)
 	transform = O	// возвращаем оригинальный
 	playsound(src, drop_sound, DROP_SOUND_VOLUME, ignore_walls = FALSE)	// воспроизвоим звук дропа айтема
