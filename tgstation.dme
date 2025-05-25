@@ -10372,5 +10372,9 @@
 #include "modular_zzz\modules\new_icons\smes\code.dm"
 #include "modular_zzz\modules\noose\code.dm"
 #include "modular_zzz\modules\now_we_can_jump\code.dm"
+#include "modular_zzz\modules\translate\laws-translate\laws_antagonistic.dm"
+#include "modular_zzz\modules\translate\laws-translate\laws_neutral.dm"
+#include "modular_zzz\modules\translate\laws-translate\laws_station_sided.dm"
+#include "modular_zzz\modules\translate\station_goals\station_goals.dm"
 #include "modular_zzz\modules\void\void.dm"
 // END_INCLUDE
