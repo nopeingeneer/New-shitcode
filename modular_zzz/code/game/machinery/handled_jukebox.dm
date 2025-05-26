@@ -8,7 +8,6 @@
 	righthand_file = 'modular_zzz/icons/obj/boombox_righthand.dmi'
 	lefthand_file = 'modular_zzz/icons/obj/boombox_lefthand.dmi'
 	verb_say = "states"
-	density = TRUE
 	/// Cooldown between "Error" sound effects being played
 	COOLDOWN_DECLARE(jukebox_error_cd)
 	/// Cooldown between being allowed to play another song
