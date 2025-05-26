@@ -255,7 +255,7 @@
 		/obj/item/organ/cyberimp/chest/nutriment/plus,
 	)
 
-	implants = list(/obj/item/implant/deathrattle, /obj/item/implant/explosive/macro)
+	implants = list(/obj/item/implant/deathrattle)
 
 /datum/outfit/centcom/inteq/pre_equip(mob/living/carbon/human/H)
 	..()
