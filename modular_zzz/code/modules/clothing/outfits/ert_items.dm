@@ -64,6 +64,7 @@
 		/obj/item/stack/medical/suture/medicated = 2,
 		/obj/item/stack/medical/mesh/advanced = 2,
 		/obj/item/reagent_containers/applicator/patch/synthflesh = 12,
+		/obj/item/storage/pill_bottle/penacid = 1,
 		/obj/item/reagent_containers/hypospray/combat/nanites = 1,
 		/obj/item/stack/medical/gauze = 2,
 		/obj/item/storage/box/bandages = 1,

@@ -73,6 +73,7 @@
 	backpack_contents = list(
 		/obj/item/storage/box/m223_ammo = 1,
 		/obj/item/storage/medkit/tactical/premium/ert = 1,
+		/obj/item/ammo_box/magazine/smartgun_drum = 2,
 		/obj/item/melee/baton/security/loaded = 1,
 	)
 	belt = /obj/item/storage/belt/military/ert_max
@@ -189,8 +190,8 @@
 		/obj/item/storage/medkit/tactical/premium/ert = 1,
 		/obj/item/shield/energy/advanced = 1,
 	)
-	belt = /obj/item/storage/belt/grenade
-	l_pocket = /obj/item/melee/energy/sword/saber
+	belt = /obj/item/storage/belt/grenade/full
+	l_pocket = /obj/item/melee/energy/sword/ert
 	r_pocket = /obj/item/tank/internals/emergency_oxygen/double
 	l_hand = null
 	suit_store = /obj/item/gun/energy/pulse/loyalpin
@@ -227,3 +228,74 @@
 	implants = list(/obj/item/implant/deathrattle)
 
 /// ASSET_PROTECTION END ///
+
+/// INTEQ_SQUAD START ///
+
+/datum/outfit/centcom/inteq
+	name = "PMC InteQ: ERT"
+
+	uniform = /obj/item/clothing/under/syndicate/inteq_honorable_vanguard
+	head = /obj/item/clothing/head/HoS/inteq_vanguard
+	mask = /obj/item/clothing/mask/balaclava/breath/inteq
+	gloves = /obj/item/clothing/gloves/combat
+	suit = /obj/item/clothing/suit/armor/inteq
+	shoes = /obj/item/clothing/shoes/combat
+
+	back = /obj/item/mod/control/pre_equipped/inteqe
+	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/inteq
+	ears = /obj/item/radio/headset/inteq/bowman/command
+	l_pocket = /obj/item/gun/energy/pulse/pistol/loyalpin
+	r_pocket = /obj/item/tank/internals/emergency_oxygen/double
+	id = /obj/item/card/id/advanced/centcom/ert/inteq
+	belt = /obj/item/storage/belt/military/ert_max
+
+	cybernetic_implants = list(
+		/obj/item/organ/cyberimp/eyes/hud/medical,
+		/obj/item/organ/eyes/robotic/shield,
+		/obj/item/organ/cyberimp/chest/nutriment/plus,
+	)
+
+	implants = list(/obj/item/implant/deathrattle, /obj/item/implant/explosive/macro)
+
+/datum/outfit/centcom/inteq/pre_equip(mob/living/carbon/human/H)
+	..()
+	if(prob(10))
+		suit_store = /obj/item/gun/ballistic/automatic/ar/ak12/pink
+		backpack_contents = list(
+			/obj/item/storage/box/ak12_ammo/pink = 2,
+			/obj/item/storage/medkit/tactical/premium/ert = 1,
+			/obj/item/melee/baton/security/loaded = 1,
+		)
+	else
+		suit_store = /obj/item/gun/ballistic/automatic/ar/ak12
+		backpack_contents = list(
+			/obj/item/storage/box/ak12_ammo = 2,
+			/obj/item/storage/medkit/tactical/premium/ert = 1,
+			/obj/item/melee/baton/security/loaded = 1,
+		)
+
+/datum/outfit/centcom/inteq/officer/pre_equip(mob/living/carbon/human/H, visualsOnly, client/preference_source)
+	. = ..()
+	var/list/extra_backpack_items = list(
+		/obj/item/choice_beacon/inteq_mech = 1
+	)
+	LAZYADD(backpack_contents, extra_backpack_items)
+
+/datum/outfit/centcom/inteq/officer
+	name = "PMC InteQ: ERT Leader"
+	id = /obj/item/card/id/advanced/centcom/ert/inteq/leader
+	head = /obj/item/clothing/head/HoS/inteq_honorable_vanguard
+	suit = /obj/item/clothing/suit/armor/inteq/honorable_vanguard
+
+/datum/outfit/centcom/inteq/officer/post_equip(mob/living/carbon/human/squaddie, visuals_only = FALSE)
+	. = ..()
+	var/obj/item/mod/control/mod = squaddie.back
+	if(!istype(mod))
+		return
+	var/obj/item/clothing/helmet = mod.get_part_from_slot(ITEM_SLOT_HEAD)
+	var/obj/item/clothing/head/HoS/inteq_honorable_vanguard/beret = new(helmet)
+	var/datum/component/hat_stabilizer/component = helmet.GetComponent(/datum/component/hat_stabilizer)
+	component.attach_hat(beret)
+	squaddie.update_clothing(helmet.slot_flags)
+
+/// INTEQ_SQUAD END ///
