@@ -1,21 +1,22 @@
 /obj/item/storage/box/centcom
 	name = "box"
 	desc = "It's just an ordinary box."
+	icon_state = "internals_large"
 
 /obj/item/storage/box/centcom/PopulateContents()
 	var/static/items_inside = list(
-		/obj/item/clothing/mask/gas/sechailer=1,
-		/obj/item/tank/internals/emergency_oxygen/double=1,
-		/obj/item/reagent_containers/hypospray/medipen/atropine=2,
-		/obj/item/reagent_containers/hypospray/medipen/salacid=1,
-		/obj/item/reagent_containers/hypospray/medipen/oxandrolone=1,
-		/obj/item/crowbar/power/syndicate=1,
+		/obj/item/clothing/mask/gas/sechailer = 1,
+		/obj/item/tank/internals/emergency_oxygen/double = 1,
+		/obj/item/reagent_containers/hypospray/medipen/atropine = 2,
+		/obj/item/reagent_containers/hypospray/medipen/salacid = 1,
+		/obj/item/pinpointer/nuke = 1,
+		/obj/item/crowbar/power/syndicate = 1,
 		)
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/box/m223_ammo
 	name = "box with ammo"
-	icon_state = "syndiebox"
+	icon_state = "secbox"
 
 /obj/item/storage/box/m223_ammo/PopulateContents()
 	var/static/items_inside = list(
