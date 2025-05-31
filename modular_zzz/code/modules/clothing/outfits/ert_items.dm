@@ -70,3 +70,20 @@
 		/obj/item/storage/box/bandages = 1,
 	)
 	generate_items_inside(items_inside,src)
+
+/obj/item/clothing/suit/space/ntrauma/Initialize(mapload)
+	. = ..()
+	allowed += list(
+		/obj/item/gun/ballistic,
+		/obj/item/gun/energy,
+		/obj/item/knife/combat,
+		/obj/item/melee/baton,
+		/obj/item/reagent_containers/spray/pepper,
+		/obj/item/restraints/handcuffs,
+		/obj/item/storage/belt/holster/detective,
+		/obj/item/storage/belt/holster/nukie,
+		/obj/item/storage/belt/holster/energy,
+		/obj/item/gun/ballistic/shotgun/automatic/combat/compact,
+		/obj/item/pen/red/security,
+		/obj/item/gun/microfusion,
+	)

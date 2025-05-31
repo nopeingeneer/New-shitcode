@@ -1,6 +1,4 @@
 /datum/outfit/centcom
-	box = /obj/item/storage/box/centcom
-
 	cybernetic_implants = list(
 		/obj/item/organ/cyberimp/eyes/hud/security,
 		/obj/item/organ/eyes/robotic/shield,
@@ -241,6 +239,7 @@
 	suit = /obj/item/clothing/suit/armor/inteq
 	shoes = /obj/item/clothing/shoes/combat
 
+	box = /obj/item/storage/box/centcom
 	back = /obj/item/mod/control/pre_equipped/inteqe
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/inteq
 	ears = /obj/item/radio/headset/inteq/bowman/command
