@@ -96,7 +96,6 @@
 	icon = 'modular_zzz/icons/obj/clothing/heads.dmi'
 	worn_icon = 'modular_zzz/icons/mob/clothing/heads.dmi'
 	icon_state = "ac_beret"
-	can_be_reskinned = FALSE
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////Слот брони.
 
