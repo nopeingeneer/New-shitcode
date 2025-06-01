@@ -6,6 +6,7 @@
 	icon = 'modular_zzz/icons/obj/clothing/heads.dmi'
 	worn_icon = 'modular_zzz/icons/mob/clothing/heads.dmi'
 	icon_state = "mark45_helmet"
+	inhand_icon_state = "mark45_helmet"
 	lefthand_file = 'modular_zzz/icons/mob/clothing/lefthand.dmi'
 	righthand_file = 'modular_zzz/icons/mob/clothing/righthand.dmi'
 	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACIALHAIR
@@ -15,30 +16,35 @@
 	name = "Mk. 45 Desert Hunter helmet"
 	desc = "A modified helmet commonly used by desert Catcrins. Among the most noticeable differences is a layer of fabric designed to minimize the wear-and-tear caused by sandstorms, prolonging its lifespan in desert environments.  The personal code of the person who wears this helmet is written on the outside. This one looks worn out, most likely the helmet was removed from the corpse."
 	icon_state = "mark45_helmet_desert"
+	inhand_icon_state = "mark45_helmet_desert"
 	unique_reskin = null
 
 /obj/item/clothing/head/helmet/sec/mark45/anomalist
 	name = "Mk. 45 Anomalist helmet"
 	desc = "Helmet of the anomalist of the Catcrin army with additional decoration in the form of light armored fabric on it. It also provides protection from small shrapnel and shows the status of the wearer. The personal code of the person who wears this helmet is written on the outside. This one looks worn out, most likely the helmet was removed from the corpse."
 	icon_state = "mark45_helmet_anomalist"
+	inhand_icon_state = "mark45_helmet_anomalist"
 	unique_reskin = null
 
 /obj/item/clothing/head/helmet/sec/mark45/combatengineer
 	name = "Mk. 45 Combat engineer helmet"
 	desc = "Helmet of a combat engineer of the Catcrin army with a slight tinting on the visor to protect the eyes while working. The personal code of the person who wears this helmet is written on the outside. This one looks worn out, most likely the helmet was removed from the corpse."
 	icon_state = "mark45_helmet_combatengineer"
+	inhand_icon_state = "mark45_helmet_combatengineer"
 	unique_reskin = null
 
 /obj/item/clothing/head/helmet/sec/mark45/support
 	name = "Mk. 45 Support helmet"
 	desc = "Helmet of a Catcrin army support trooper with a white cross on it for identification purposes. The personal code of the person who wears this helmet is written on the outside. This one looks worn out, most likely the helmet was removed from the corpse."
 	icon_state = "mark45_helmet_support"
+	inhand_icon_state = "mark45_helmet_support"
 	unique_reskin = null
 
 /obj/item/clothing/head/helmet/sec/mark45/snow
 	name = "Mk. 45 Snow Cover helmet"
 	desc = "A modified Catcrin helmet optimized for cold-weather operations, differing wildly in appearance from its original form. An additional light plate is attached to the top of the helmet to deflect snow, and the visor itself has been made smaller. The inside of the helmet is lined with wool, with only the ears having been left unaffected. The personal code of the person who wears this helmet is written on the outside. This one looks worn out, most likely the helmet was removed from the corpse."
 	icon_state = "mark45_helmet_snow"
+	inhand_icon_state = "mark45_helmet_snow"
 	unique_reskin = null
 
 /obj/item/clothing/head/HoS/mark45_officer
@@ -47,6 +53,7 @@
 	icon = 'modular_zzz/icons/obj/clothing/heads.dmi'
 	worn_icon = 'modular_zzz/icons/mob/clothing/heads.dmi'
 	icon_state = "mark45_helmet_officer"
+	inhand_icon_state = "mark45_helmet_officer"
 	lefthand_file = 'modular_zzz/icons/mob/clothing/lefthand.dmi'
 	righthand_file = 'modular_zzz/icons/mob/clothing/righthand.dmi'
 	flags_cover = HEADCOVERSEYES
@@ -100,6 +107,7 @@
 	worn_icon = 'modular_zzz/icons/mob/clothing/suits.dmi'
 	worn_icon_digi = 'modular_zzz/icons/mob/clothing/suits.dmi'
 	icon_state = "mark45_armor"
+	inhand_icon_state = "mark45_armor"
 	lefthand_file = 'modular_zzz/icons/mob/clothing/lefthand.dmi'
 	righthand_file = 'modular_zzz/icons/mob/clothing/righthand.dmi'
 	unique_reskin = null
@@ -108,29 +116,34 @@
 	name = "Mk. 45 Desert Hunter Armor"
 	desc = "A modified armor commonly used by desert Catcrins. Among the most noticeable differences is a layer of fabric designed to minimize the wear-and-tear caused by sandstorms, prolonging its lifespan in desert environments. The personal code of the person who wears this armor is written on the outside. This one looks worn out, most likely the armor was removed from the corpse."
 	icon_state = "mark45_armor_desert"
+	inhand_icon_state = "mark45_armor_desert"
 
 /obj/item/clothing/suit/armor/mark45_armor/mark45_armor/snow
 	name = "Mk. 45 Snow Cover Аrmor"
 	desc = "A modified Catcrin armor optimized for cold-weather operations. A layer of warm wool is visible inside the armor to preserve the warmth of the wearer. The personal code of the person who wears this armor is written on the outside. This one looks worn out, most likely the armor was removed from the corpse."
 	icon_state = "mark45_armor_snow"
+	inhand_icon_state = "mark45_armor_snow"
 	unique_reskin = null
 
 /obj/item/clothing/suit/armor/mark45_armor/mark45_armor/anomalist
 	name = "Mk. 45 Anomalist Аrmor"
 	desc = "Armor made on the basis of Mk. 45. This armor is worn by Catcrin anomalists, those who study the otherworldly world of ghosts, as well as associated with the elimination of various kinds of hostile anomalies. It is also decorated with special light armored fabric, showing the status of the carrier, and also protects it from potential shrapnel. The personal code of the person who wears this armor is written on the outside. This one looks worn out, most likely the armor was removed from the corpse."
 	icon_state = "mark45_armor_anomalist"
+	inhand_icon_state = "mark45_armor_anomalist"
 	unique_reskin = null
 
 /obj/item/clothing/suit/armor/mark45_armor/mark45_armor/combatengineer
 	name = "Mk. 45 Combat engineer Аrmor"
 	desc = "A modified version of the armor created for combat engineers in the Catcrin army, with a special auxiliary manipulator. The personal code of the person who wears this armor is written on the outside. This one looks worn out, most likely the armor was removed from the corpse."
 	icon_state = "mark45_armor_combatengineer"
+	inhand_icon_state = "mark45_armor_combatengineer"
 	unique_reskin = null
 
 /obj/item/clothing/suit/armor/mark45_armor/mark45_armor/support
 	name = "Mk. 45 Support Аrmor"
 	desc = "A lighter version of the Mk armor. 45 with additional pouches and a support mark on the shoulder pad. It is used by auxiliary fighters in the Catcrin army. The personal code of the person who wears this armor is written on the outside. This one looks worn out, most likely the armor was removed from the corpse."
 	icon_state = "mark45_armor_support"
+	inhand_icon_state = "mark45_armor_support"
 	unique_reskin = null
 
 /obj/item/clothing/suit/armor/hos/mark45_armor_officer
@@ -140,6 +153,7 @@
 	worn_icon = 'modular_zzz/icons/mob/clothing/suits.dmi'
 	worn_icon_digi = 'modular_zzz/icons/mob/clothing/suits.dmi'
 	icon_state = "mark45_armor_officer"
+	inhand_icon_state = "mark45_armor_officer"
 	lefthand_file = 'modular_zzz/icons/mob/clothing/lefthand.dmi'
 	righthand_file = 'modular_zzz/icons/mob/clothing/righthand.dmi'
 	unique_reskin = null
