@@ -13,29 +13,29 @@
 	item_path = /obj/item/clothing/suit/armor/mark45_armor
 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/suit/armor/mark45_armor/mark45_armor/desert
+/datum/loadout_item/suit/armor/mark45_armor/desert
 	name = "Mk. 45 Desert Hunter Armor"
-	item_path = /obj/item/clothing/suit/armor/mark45_armor/mark45_armor/desert
+	item_path = /obj/item/clothing/suit/armor/mark45_armor/desert
 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/suit/armor/mark45_armor/mark45_armor/snow
+/datum/loadout_item/suit/armor/mark45_armor/snow
 	name = "Mk. 45 Snow Cover Аrmor"
-	item_path = /obj/item/clothing/suit/armor/mark45_armor/mark45_armor/snow
+	item_path = /obj/item/clothing/suit/armor/mark45_armor/snow
 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/suit/armor/mark45_armor/mark45_armor/anomalist
+/datum/loadout_item/suit/armor/mark45_armor/anomalist
 	name = "Mk. 45 Anomalist Аrmor"
-	item_path = /obj/item/clothing/suit/armor/mark45_armor/mark45_armor/anomalist
+	item_path = /obj/item/clothing/suit/armor/mark45_armor/anomalist
 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/suit/armor/mark45_armor/mark45_armor/combatengineer
+/datum/loadout_item/suit/armor/mark45_armor/combatengineer
 	name = "Mk. 45 Combat engineer Аrmor"
-	item_path = /obj/item/clothing/suit/armor/mark45_armor/mark45_armor/combatengineer
+	item_path = /obj/item/clothing/suit/armor/mark45_armor/combatengineer
 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/suit/armor/mark45_armor/mark45_armor/support
+/datum/loadout_item/suit/armor/mark45_armor/support
 	name = "Mk. 45 Support Аrmor"
-	item_path = /obj/item/clothing/suit/armor/mark45_armor/mark45_armor/support
+	item_path = /obj/item/clothing/suit/armor/mark45_armor/support
 	restricted_roles = list(ALL_JOBS_SEC)
 
 /datum/loadout_item/suit/armor/hos/mark45_armor_officer
