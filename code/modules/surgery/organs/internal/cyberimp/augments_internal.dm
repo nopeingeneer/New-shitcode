@@ -57,7 +57,8 @@
 
 /datum/bodypart_overlay/augment/generate_icon_cache()
 	. = ..()
-	. += implant.get_overlay_state()
+	if(implant)
+		. += implant.get_overlay_state()
 
 /datum/bodypart_overlay/augment/get_overlay(layer, obj/item/bodypart/limb)
 	layer = bitflag_to_layer(layer)
